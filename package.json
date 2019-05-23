@@ -1,0 +1,21 @@
+{
+	"name": "twing-translation",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "midnightcoder",
+	"license": "MIT",
+	"dependencies": {
+		"sprintf-js": "^1.1.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/midnightcoder-pro/twing-translation.git"
+	},
+	"keywords": [
+		"twing",
+		"twig",
+		"translation",
+		"multilanguage",
+		"language"
+	]
+}
