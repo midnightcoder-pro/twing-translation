@@ -5,7 +5,7 @@
 Twig:
 ```twig
 {{ 'test[0]'|t }}
-{{ 'test[1]'|t(12, "London Zoo") }}
+{{ 'test[1]'|t(12, 'London Zoo') }}
 ```
 
 Js:
@@ -31,8 +31,15 @@ let strings = {
 }
 
 twing.addExtension(
-	new TwingTranslationExtension(strings) // Can receive promises!
+	new TwingTranslationExtension(strings, 'ru') // Can receive promises!
 )
 
 // ...
+// Use twing context.language to change language
+```
+
+Result:
+```html
+Привет
+12 обезьян в London Zoo
 ```
